@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIGNMENT</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubutu&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            background-color: sandybrown;
+            margin: 33px auto;
+        }
+
+        .item {
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3 px;
+            background: rgb(240, 172, 172);
+        }
+
+        #fruit {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: right;
+            width: 48%;
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: both;
+            width: 100%;
+            clear: right;
+        }
+
+        p,
+        h1 {
+            /* text-align: right;
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+        }
+
+        h1 {
+            margin: auto;
+            width: 455px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div class="container">
+            <div id="fruit" class="item">
+                <h3>fruit</h3>
+                <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                    necessitatibus eius, maxime hic ullam incidunt architecto. Ea ipsum voluptas temporibus sapiente
+                    optio
+                    corporis, delectus, aliquam exercitationem soluta quaerat enim magni, consectetur amet cupiditate!
+                    Maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maiores distinctio
+                    corporis
+                    labore. Atque aspernatur totam alias dolorum eos, reprehenderit saepe asperiores voluptas eligendi
+                    amet
+                    fugit iusto quidem quis dolore quos ea impedit! Labore.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div id="computer" class="item">
+                <h3>Computer</h3>
+                <p id="computerpara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo enim
+                    harum
+                    magnam facere saepe sequi accusantium repellat mollitia, quam nulla tenetur aliquid eligendi.
+                    Commodi
+                    beatae asperiores officiis distinctio voluptatum tenetur doloremque, perferendis dolore aperiam
+                    voluptatibus temporibus neque blanditiis dignissimos illum autem ad laboriosam in porro, harum,
+                    consectetur eius architecto! Doloribus, officiis voluptates! Obcaecati officiis sed distinctio esse
+                    voluptatibus consectetur, error cupiditate illo placeat rem! Obcaecati aut magnam provident
+                    molestias
+                    quo alias distinctio ipsum consectetur ex!</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="stationary" class="item">
+                <h3>Stationary</h3>
+                <p id="stationarypara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, iste
+                    est
+                    suscipit numquam, eaque nam aperiam aspernatur neque a fugit, accusamus earum consectetur
+                    laudantium.
+                    Dolorem sed consequatur molestiae facilis consequuntur error incidunt aspernatur aperiam!</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="glasses" class="item">
+                <h3>Stationary</h3>
+                <p id="glassespara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, iste
+                    est
+                    suscipit numquam, eaque nam aperiam aspernatur neque a fugit, accusamus earum consectetur
+                    laudantium.
+                    Dolorem sed consequatur molestiae facilis consequuntur error incidunt aspernatur aperiam!</p>
+            </div>
+        </div>
+</body>
+
+</html>
