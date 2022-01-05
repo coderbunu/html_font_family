@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorials</title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section  section aside'
+                'footer footer footer footer';
+        }
+
+        .item {
+            background-color: hotpink;
+            border: 3px solid black;
+            padding: 12px 23px;
+        }
+
+        #navbar {
+            grid-area: navbar;
+        }
+
+        #section {
+            grid-area: section;
+        }
+
+        #aside {
+            grid-area: aside;
+        }
+
+        footer {
+            grid-area: footer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="navbar" class="item">
+            Home About Contact Us
+        </div>
+        <div id="section" class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dicta commodi expedita corporis laudantium
+            beatae. Corporis, ad. At, magni aliquam provident incidunt ipsa blanditiis!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta vero placeat ex modi. Aliquam soluta nisi
+            praesentium, tempore alias at culpa omnis nulla magnam distinctio assumenda illo iusto quaerat ut odit,
+            molestiae officiis! Similique natus consequatur ipsum beatae alias odio libero explicabo autem eligendi
+            fugiat illo ipsa ea iure fuga, molestias commodi. Ex obcaecati beatae repudiandae doloribus aspernatur
+            incidunt, a corrupti iusto assumenda molestias placeat dignissimos. Quos consequatur blanditiis quasi saepe
+            cupiditate unde aspernatur expedita omnis quis sunt animi iste, ab corrupti voluptatibus? Veniam dolorem
+            laudantium dicta consequatur veritatis? Cupiditate harum aperiam iste, odio itaque pariatur id!
+            Perspiciatis, nostrum laboriosam.
+        </div>
+        <div id="aside" class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsam nesciunt commodi!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae assumenda eveniet voluptate quia accusantium.
+            Iusto sequi quibusdam minima nulla quod recusandae temporibus tempore qui, alias quam unde quo accusamus
+            eius dignissimos consectetur! Eos totam explicabo, eaque, velit porro tempora, deleniti dolore dolores non
+            odio magni nemo laborum sit ab fugit vel architecto assumenda quae quo? Cumque, accusamus eos? Vitae
+            eligendi impedit, quas non ex dolore exercitationem, sapiente modi velit officia, cupiditate reiciendis
+            molestias iste aliquid.
+        </div>
+        <footer class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, labore!</footer>
+        <!-- <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+        <div class="item">item-4</div>
+        <div class="item">item-5</div>
+        <div class="item">item-6</div>
+        <div class="item">item-7</div>
+        <div class="item">item-8</div>
+        <div class="item">item-9</div>
+        <div class="item">item-10</div>
+        <div class="item">item-11</div>
+        <div class="item">item-12</div>
+        <div class="item">item-13</div>
+        <div class="item">item-14</div> -->
+    </div>
+</body>
+
+</html>
