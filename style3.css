@@ -1,0 +1,23 @@
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    border: 2px solid yellow;
+}
+
+.btn {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin: 0px 8 px;
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(170, 146, 146);
+}
